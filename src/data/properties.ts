@@ -1,5 +1,16 @@
 import { Property } from '../types/Property';
 
+// Import des images de la villa
+import vilaMain from '../assets/vila1/vila_main.jpg';
+import vila1 from '../assets/vila1/vila1.jpg';
+import villa2 from '../assets/vila1/villa2.jpg';
+import vila3 from '../assets/vila1/vila3.jpg';
+import vila4 from '../assets/vila1/vila4.jpg';
+import vila5 from '../assets/vila1/vila5.jpg';
+import vila6 from '../assets/vila1/vila6.jpg';
+import vila7 from '../assets/vila1/vila7.jpg';
+import vila8 from '../assets/vila1/vila8.jpg';
+
 export const properties: Property[] = [
   
   {
@@ -13,15 +24,15 @@ export const properties: Property[] = [
     bathrooms: 3,
     area: 380,
     images: [
-      '/src/assets/vila1/vila_main.jpg',
-      '/src/assets/vila1/vila1.jpg',
-      '/src/assets/vila1/villa2.jpg',
-      '/src/assets/vila1/vila3.jpg',
-      '/src/assets/vila1/vila4.jpg',
-      '/src/assets/vila1/vila5.jpg',
-      '/src/assets/vila1/vila6.jpg',
-      '/src/assets/vila1/vila7.jpg',
-      '/src/assets/vila1/vila8.jpg'
+      vilaMain,
+      vila1,
+      villa2,
+      vila3,
+      vila4,
+      vila5,
+      vila6,
+      vila7,
+      vila8
     ],
     description: 'Magnifique villa moderne de 380m² située dans la prestigieuse région de Sidi Rahal au Maroc. Cette propriété d\'exception offre 4 chambres spacieuses avec vue sur l\'océan, 3 salles de bains luxueuses, un salon principal lumineux, une salle à manger élégante avec accès direct à la terrasse, et une cuisine moderne entièrement équipée. La villa dispose d\'un grand jardin paysager, d\'une terrasse panoramique avec vue sur l\'Atlantique, et se trouve à seulement quelques minutes des plus belles plages de la côte marocaine. Architecture contemporaine alliant confort moderne et charme marocain traditionnel. Parfaite pour une résidence secondaire ou un investissement touristique de prestige.',
     features: ['Vue Océan', 'Grand Jardin', 'Terrasse', 'Proche Plage', 'Garage', 'Climatisation']
